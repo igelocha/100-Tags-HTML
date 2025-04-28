@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inoru Tattoo and Piercing Studio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#appointment">Appointment</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#awards">Awards</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<section id="home">
+  <h1>Welcome to Inoru Tattoo and Piercing Studio</h1>
+  <p>Where art meets the skin.</p>
+</section>
+
+<section id="about">
+  <h2>Our Story</h2>
+  <p>Established in 2005, Inoru Tattoo has been providing world-class tattoos and piercings.</p>
+  <p>We pride ourselves on creativity, safety, and customer satisfaction.</p>
+</section>
+
+<section id="gallery">
+  <h2>Gallery</h2>
+  <div class="gallery-container">
+    <img src="tattoo1.jpg" alt="Tattoo 1">
+    <img src="tattoo2.jpg" alt="Tattoo 2">
+    <img src="tattoo3.jpg" alt="Tattoo 3">
+    <img src="tattoo4.jpg" alt="Tattoo 4">
+    <img src="tattoo5.jpg" alt="Tattoo 5">
+    <img src="tattoo6.jpg" alt="Tattoo 6">
+  </div>
+</section>
+
+<section id="appointment">
+  <h2>Book an Appointment</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="service">Service:</label>
+    <select id="service" name="service" required>
+      <option value="tattoo">Tattoo</option>
+      <option value="piercing">Piercing</option>
+    </select>
+
+    <label for="date">Preferred Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="message">Additional Notes:</label>
+    <textarea id="message" name="message" rows="4"></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+<section id="faq">
+  <h2>Frequently Asked Questions</h2>
+  
+  <details>
+    <summary>Is it safe to get a tattoo?</summary>
+    <p>Absolutely! We follow strict health and safety guidelines.</p>
+  </details>
+
+  <details>
+    <summary>How should I care for my new tattoo?</summary>
+    <p>Keep it clean, moisturized, and avoid sun exposure for the first few weeks.</p>
+  </details>
+
+  <details>
+    <summary>Does getting a tattoo hurt?</summary>
+    <p>It can be uncomfortable, but our experienced artists help minimize pain.</p>
+  </details>
+
+  <details>
+    <summary>Do you offer consultations?</summary>
+    <p>Yes, free consultations are available upon request.</p>
+  </details>
+
+</section>
+
+<section id="awards">
+  <h2>Our Awards</h2>
+  <ul>
+    <li>Best Tattoo Studio 2018</li>
+    <li>Top 10 Piercing Parlors 2019</li>
+    <li>Artistic Excellence Award 2020</li>
+    <li>Best Customer Experience 2021</li>
+    <li>Most Creative Designs 2022</li>
+  </ul>
+</section>
+
+<section id="team">
+  <h2>Meet Our Artists</h2>
+  <div class="gallery-container">
+    <img src="artist1.jpg" alt="Artist 1">
+    <img src="artist2.jpg" alt="Artist 2">
+    <img src="artist3.jpg" alt="Artist 3">
+  </div>
+</section>
+
+<section id="studio">
+  <h2>Our Studio</h2>
+  <p>Modern equipment, relaxing atmosphere, and world-class hygiene standards.</p>
+  <img src="studio.jpg" alt="Studio Image">
+</section>
+
+<section id="testimonials">
+  <h2>What Our Clients Say</h2>
+  <p>"Absolutely amazing experience!" - Sarah</p>
+  <p>"Professional, clean, and very talented artists." - Mike</p>
+  <p>"Would definitely come back again!" - Emma</p>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2025 Inoru Tattoo and Piercing Studio. All Rights Reserved.</p>
+  <p>Follow us on:
+    <a href="#">Instagram</a> | 
+    <a href="#">Facebook</a> | 
+    <a href="#">Twitter</a>
+  </p>
+</footer>
+
+</body>
+</html>
